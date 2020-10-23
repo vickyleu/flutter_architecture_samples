@@ -3,7 +3,7 @@
 // in the LICENSE file.
 
 import 'dart:async' show Future;
-import 'package:mvc_pattern/mvc_pattern.dart' show ControllerMVC;
+import 'package:mvc_pattern/mvc_pattern.dart' show AppConMVC;
 
 import 'package:mvc/src/todo_list_model.dart' show VisibilityFilter;
 import 'package:mvc/src/Model.dart' show Model;
@@ -11,7 +11,7 @@ import 'package:mvc/src/Model.dart' show Model;
 import 'package:mvc/src/App.dart' show MVCApp;
 
 /// The Controller answers & responses to 'the events' while the Model execute 'the rules' and manipulates data.
-class Con extends ControllerMVC {
+class Con extends AppConMVC {
   factory Con() {
     return _this ??= Con._();
   }

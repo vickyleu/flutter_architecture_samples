@@ -3,9 +3,9 @@
 // in the LICENSE file.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:quiver/core.dart';
 import 'package:redux_sample/models/models.dart';
 import 'package:redux_sample/selectors/selectors.dart';
+import 'package:todos_app_core/todos_app_core.dart';
 
 void main() {
   group('Selectors', () {
